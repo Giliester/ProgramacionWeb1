@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F1F0E8;
+}
+
+table {
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+th{
+    background-color: #89A8B2;
+    font-size: larger;
+}
+
+td{
+    background-color: #E5E1DA;
+    font-weight:lighter;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(22, 22, 22);
+}
+
+.centrado {
+    text-align: center;
+}
+
+.materia {
+    text-align:left;
+    background-color: #B3C8CF;
+    font-weight: bold;
+}
