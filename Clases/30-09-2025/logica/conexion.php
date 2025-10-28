@@ -1,5 +1,6 @@
 <?php
 // Almacenar .variables donde se tiene informacion de la base de datos y el servidor
+//Configuracion XAMP
 /*
     $host = '127.0.0.1:3306';
     $host = 'localhost';

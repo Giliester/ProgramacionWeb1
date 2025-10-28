@@ -1,8 +1,8 @@
 <?php
-$host = '127.0.0.1:3306';
-$user = 'root';
-$pass = '';
-$dbName = 'crud_app';
+$host = 'sql309.infinityfree.com';
+$user = 'if0_40222266';
+$pass = 'G6gFo61pbwGjYv';
+$dbName = 'if0_40222266_mysql';
 
 $conn = new mysqli( $host,$user,$pass,$dbName);
 
