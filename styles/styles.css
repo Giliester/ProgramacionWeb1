@@ -1,0 +1,107 @@
+/* === Reset === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* === Fuente y fondo === */
+body {
+  font-family: "Poppins", "Segoe UI", Arial, sans-serif;
+  background: #f4f6f7;
+  color: #2b2b2b;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+}
+
+/* === Header === */
+header {
+  background: #0d3b66; /* azul petróleo */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+header h1 {
+  font-size: 1.8em;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+header nav a {
+  color: #d1f5e1; /* verde menta claro */
+  text-decoration: none;
+  margin: 0 12px;
+  font-weight: 500;
+}
+
+/* === Contenido principal === */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  text-align: center;
+  width: 100%;
+}
+
+main h1 {
+  color: #0d3b66;
+  font-size: 1.8em;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+/* === Grid === */
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 30px;
+  width: 85%;
+  max-width: 900px;
+}
+
+/* === Tarjetas === */
+.link-list {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  border-top: 4px solid #0d3b66;
+}
+
+.link-list h2 {
+  color: #155e63; /* verde petróleo */
+  font-size: 1.2em;
+  font-weight: 600;
+  border-bottom: 2px solid #a7c957;
+  padding-bottom: 8px;
+  margin-bottom: 15px;
+}
+
+.link-list a {
+  display: block;
+  color: #1e293b;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* === Footer === */
+footer {
+  background: #155e63; /* verde oscuro */
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  width: 100%;
+  margin-top: auto;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
